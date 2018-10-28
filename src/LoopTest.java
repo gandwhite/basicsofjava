@@ -126,7 +126,7 @@ public class LoopTest {
     {
         for(int i = 0; i < star_number; i++) {
             for (int j = 0; j < star_number; j++) {
-                if ((i + j) % 2 == 0)
+                if ((i + j) % 2 != 0)
                     System.out.print(' ');
                 else
                     System.out.print('*');
@@ -140,9 +140,9 @@ public class LoopTest {
         for(int i = 0; i < star_number; i++) {
             for (int j = 0; j < star_number; j++) {
                 if ((i + j) % 2 == 0)
-                    System.out.print('*');
-                else
                     System.out.print(' ');
+                else
+                    System.out.print('*');
             }
             System.out.println();
         }
