@@ -61,8 +61,8 @@ public class LoopTest {
         for(int i = 0; i<star_number; i++)
         {
             System.out.print('*');
-            System.out.println();
         }
+        System.out.println();
     }
 
     private void t2(int star_number)
