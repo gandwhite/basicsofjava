@@ -11,7 +11,7 @@ public class LoopTest {
         int star_number = 5;
 
         while(!input.equals("exit")) {
-            System.out.println("which example you'd like to run? possible selsctions: 't1' or 't2' etc, up to 't8', or 'exit'");
+            System.out.println("which example you'd like to run? possible selections: 't1' or 't2' etc, up to 't8', or 'exit'");
             System.out.print("your selection: ");
             input = scanner.next();
 
@@ -61,6 +61,7 @@ public class LoopTest {
         for(int i = 0; i<star_number; i++)
         {
             System.out.print('*');
+            System.out.println();
         }
     }
 
